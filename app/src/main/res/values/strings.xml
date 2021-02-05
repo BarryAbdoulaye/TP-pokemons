@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pokemons Project</string>
+    <!-- BOTTOM NAVIGATION VIEW -->
+    <string name="bottom_navigation_menu_Description">Description</string>
+    <string name="bottom_navigation_menu_Evolution">Evolution</string>
+    <string name="details_pokemons">Details</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".ListActivities">
+
+    <RelativeLayout
+        android:id="@+id/recyclerViewGens"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:clickable="true"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/gen1"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@+id/gen2"
+            android:layout_toLeftOf="@+id/gen2"
+            android:adjustViewBounds="true"
+            android:background="@drawable/gencolor"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/gen3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/gen2"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_toStartOf="@+id/gen3"
+            android:layout_toLeftOf="@+id/gen3"
+            android:adjustViewBounds="true"
+            android:background="@drawable/gencolor"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/gen1"
+            app:layout_constraintRight_toLeftOf="@+id/gen3" />
+
+        <ImageButton
+            android:id="@+id/gen3"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_toStartOf="@+id/gen4"
+            android:layout_toLeftOf="@+id/gen4"
+            android:adjustViewBounds="true"
+            android:background="@drawable/gencolor"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/gen2"
+            app:layout_constraintRight_toLeftOf="@+id/gen4" />
+
+        <ImageButton
+            android:id="@+id/gen4"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_toStartOf="@+id/gen5"
+            android:layout_toLeftOf="@+id/gen5"
+            android:adjustViewBounds="true"
+            android:background="@drawable/gencolor"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/gen3"
+            app:layout_constraintRight_toLeftOf="@+id/gen5" />
+
+        <ImageButton
+            android:id="@+id/gen5"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_toStartOf="@+id/gen6"
+            android:layout_toLeftOf="@+id/gen6"
+            android:adjustViewBounds="true"
+            android:background="@drawable/gencolor"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/gen4"
+            app:layout_constraintRight_toLeftOf="@+id/gen6" />
+
+        <ImageButton
+            android:id="@+id/gen6"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_toStartOf="@+id/gen7"
+            android:layout_toLeftOf="@+id/gen7"
+            android:adjustViewBounds="true"
+            android:background="@drawable/gencolor"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/gen5"
+            app:layout_constraintRight_toLeftOf="@+id/gen7" />
+
+        <ImageButton
+            android:id="@+id/gen7"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_toStartOf="@+id/gen8"
+            android:layout_toLeftOf="@+id/gen8"
+            android:adjustViewBounds="true"
+            android:background="@drawable/gencolor"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/gen6"
+            app:layout_constraintRight_toLeftOf="@+id/gen8" />
+
+        <ImageButton
+            android:id="@+id/gen8"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/gencolor"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@id/gen7"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPics"
+        android:layout_width="413dp"
+        android:layout_height="612dp"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerViewGens" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

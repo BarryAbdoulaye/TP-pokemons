@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorred">#FF0000</color>
+    <color name="colorgreen">#008000</color>
+    <color name="colorblue">#0000FF</color>
+    <color name="coloryellow">#CCCC00</color>
+    <color name="colorgreenpoison">#32CD32</color>
+    <color name="colorgreenbug">#6B8E23</color>
+    <color name="colordark">#000000</color>
+    <color name="coloracier">#8B8B8B</color>
+    <color name="colorcombat">#EC400A</color>
+    <color name="colordragon">#4F4DFF</color>
+    <color name="coloreau">#0007FF</color>
+    <color name="colorelectrik">#F7F80A</color>
+    <color name="colorfee">#F581B8</color>
+    <color name="colorfeu">#FF0000</color>
+    <color name="colorglace">#00E6FF</color>
+    <color name="colorinsecte">#53F905</color>
+    <color name="colornormal">#E8D9D9</color>
+    <color name="colorplante">#09F905</color>
+    <color name="colorpoison">#7E00FF</color>
+    <color name="colorpsy">#F40B7A</color>
+    <color name="colorroche">#9F6A16</color>
+    <color name="colorsol">#E89108</color>
+    <color name="colorspectre">#5F5F5F</color>
+    <color name="colortenebre">#131313</color>
+    <color name="colorvol">#85EBBD</color>
+
+    <color name="trans">#00000000</color>
+    <color name="colorgrey">#383838</color>
+
+    <!-- APP BASE -->
+    <color name="background_light">#ffffff</color>
+    <color name="colorAccentDark">#4aa87a</color>
+
+</resources>
